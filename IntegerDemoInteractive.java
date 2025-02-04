@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class IntegerDemoInteractive
+{
+   public static void main (String[] args)
+   {
+   int anInt ;
+   byte aByte ;
+   short aShort ;
+   long aLong ;
+   
+   int anotherInt ;
+   
+   Scanner input = new Scanner(System.in);
+   
+   System.out.println("Please enter an integer >>");
+   anInt = input.nextInt();
+   System.out.println("Please enter an byte integer >>");
+   aByte = input.nextByte();
+   System.out.println("Please enter an short integer >>");
+   aShort = input.nextShort();
+   System.out.println("Please enter an long integer >>");
+   aLong = input.nextLong();
+   
+   System.out.println("This int is " + anInt);
+   System.out.println("This byte is " + aByte);
+   System.out.println("This short is " + aShort);
+   System.out.println("This long is " + aLong);
+
+   }
+}
